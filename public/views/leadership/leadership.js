@@ -38,7 +38,7 @@ function parseLeadershipFile(response) {
         if(lines[i].includes('Leadership Principle')) {
             var newSection = document.createElement('section');
             var header = document.createElement('h3');
-            header.innerText = lines[i].split('-')[1].trimLeft();
+            header.innerText = lines[i].split(':')[1].trimLeft();
             newSection.appendChild(header);
             newSection.dataset.id = ++target;
             document.querySelector('article.leadership').appendChild(newSection);

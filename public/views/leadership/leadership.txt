@@ -1,4 +1,4 @@
-Leadership Principle - Customer Obession, Tmobile
+Leadership Principle : Customer Obession, T-Mobile (Intern)
 q: What task did you face?
 a: Developing an internal tool at T-Mobile to showcase various applications and crucial information on them.
 
@@ -27,7 +27,7 @@ q: What would you have done differently?
 a: I would have thought more about the structure of the data and used this knowledge to chose the appropriate DBMS.
 
 
-Leadership Principle - Ownership, Microsoft
+Leadership Principle : Ownership, Microsoft (Contract)
 q: What task did you face?
 a: I was faced with the task of promoting a Microsoft Solitaire extension for Chrome and Firefox.
 
@@ -56,7 +56,7 @@ q: What would you have done differently?
 a: I would have asked for all of the requirements up front, as there were continual minor asks for styling or adding an additional option to the banner.
 
 
-Leadership Principle - Invent and Simplify, Tmobile
+Leadership Principle : Invent and Simplify, T-Mobile (Full time)
 q: What task did you face?
 a: The task that I faced was creating a script that would help Network Engineers at T-Mobile with updating several boxes.
 
@@ -79,12 +79,12 @@ q: What tradeoffs were made?
 a: Time complexity was one of the tradeoffs as we were under a time crunch and didn't have enough time to fully tune the playbooks.
 
 q: What lessons were learned?
-a: I learned more about writing Ansible Playbooks and ssh-keygen.
+a: I learned more about writing Ansible Playbooks and ssh:keygen.
 
 q: What would you have done differently?
 a: I would have definitely focused a lot more time into researching Ansible to see if there were more functions that I could have utilized.
 
-Leadership Principle - Are Right, A Lot, Microsoft
+Leadership Principle : Are Right, A Lot, Microsoft (Contract)
 q: What task did you face?
 a: Blocked video autoplay solution
 
@@ -112,7 +112,7 @@ a: I learned a lot about measuring user engagement and how autoplay works in Chr
 q: What would you have done differently?
 a: One of the things that I would have done differently was argue for my solution a little more strongly. I was pulled into a room with my manager and someone, who was needed for the good to go on the approved solutions. In my argument I did fumble a little bit but I definitely know that preparation and confidence are key to making valid arguments.
 
-Leadership Principle - Develop the Best, Tmobile
+Leadership Principle : Develop the Best, T-Mobile (Contract)
 q: What task did you face?
 a: Onboarding another Engineer onto a project of mine.
 
@@ -140,7 +140,7 @@ a: I learned a lot about the importance of Unit Testing, collaboration, and prop
 q: What would you have done differently?
 a: Given what I've gone through there I would have split tasks, between the Engineer that was onboarded under me, based off of strongest skills. For example, the other Engineer is great with layout and unit testing so instead of assigning the Engineer to work on components as a whole, I would have the Engineer focus on the SASS and HTML files.
 
-Leadership Principle - Insist on the highest standard, Microsoft
+Leadership Principle : Insist on the highest standard, Microsoft (Contract)
 q: What task did you face?
 a: It's not just one single tasks but more like an extension off of each task I've worked on at Microsoft. I always strive to learn where I could improve and ensure that my work on the next task will always be better than my work on the previous task. I've modified a lot of the ASPX files to follow proper HTML semantics, removed table stylling, and following a practice with documentation over each function stating the purpose of it and the types of parameters/return values. 
 
@@ -168,7 +168,7 @@ a: I learned why the zone code base is the way it is due to lack of communicatio
 q: What would you have done differently?
 a: If I could go back to the start of the Zone project (15+ years ago) I would insist on thorough documentation, as semantic HTML wasn't available at the time. If I could go back in time to when floats were being used I would urge the developers to use floats for styling rather than table elements as one should keep the HTML separate from the CSS.
 
-Leadership Principle - Think Big, Microsoft
+Leadership Principle : Think Big, Microsoft (Contract)
 q: What task did you face?
 a: The task is the infinity scroller that I'm currently developing for the front page of zone.msn.com.
 
@@ -196,7 +196,35 @@ a: The biggest lesson was learning a lot about the interaction between C#, ASPX,
 q: What would you have done differently?
 a: For the future, I will know where to look in terms of the project for modifying various controllers that impact certain views.
 
-Leadership Principle - Bias of Action
+Leadership Principle : Bias of Action T-Mobile (Intern)
+q: What task did you face?
+a: We were under a time crunch in order to migrate all of our data from Granite to EAI (Ericsson application). By the time that I was onbaorded onto this project we had data in both Granite and EAI but we wanted to validate that the current data in EAI was up to date with the latest from Granite.
+
+q: Why was this important?
+a: This was important as we were going to cut off Granite and we needed to ensure that all of our RF information was up to date as any sort of misinformation could lead to big losses in terms of customers and revenue.
+
+q: What was the scope of the project?
+a: The scope of this project is all customers of T-Mobile.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle faced was time and the massive amounts of data that I had to compare (gigabytes).
+
+q: How did you set priorites?
+a: The highest priority was coming up with an algorithm to effectively analyze the massive amounts of data as time was of the essence.
+
+q: How was success measured?
+a: In terms of my end, success was measured by finding the accurate discrepancies between Granite and EAI. My part was a small part of this large migration project but my team got recognition (employee of the month was given to my direct manager at the time) in our orgnization for the successful project. 
+
+q: What tradeoffs were made?
+a: Tradeoffs made were quality for time. In the amount of time that I was given, I optimized my code as much as I could but I did lack adequate documentation which lead to me taking a phone call on a Saturday night to run the program.
+
+q: What lessons were learned?
+a: As this was during my 4 month as an intern at T-Mobile a lot was learned. The most important lesson was proper variable naming and adequate documentation for project handoff. 
+
+q: What would you have done differently?
+a: I would have chosen meaningful variable and function names.
+
+Leadership Principle : Frugality
 q:What task did you face?
 a:
 
@@ -224,7 +252,7 @@ a:
 q:What would you have done differently?
 a:
 
-Leadership Principle - Frugality
+Leadership Principle : Learn and Be Curious
 q:What task did you face?
 a:
 q:Why was this important?
@@ -243,7 +271,7 @@ q:What lessons were learned?
 a:
 q:What would you have done differently?
 a:
-Leadership Principle - Learn and Be Curious
+Leadership Principle : Earn Trust
 q:What task did you face?
 a:
 q:Why was this important?
@@ -262,7 +290,7 @@ q:What lessons were learned?
 a:
 q:What would you have done differently?
 a:
-Leadership Principle - Earn Trust
+Leadership Principle : Dive Deep
 q:What task did you face?
 a:
 q:Why was this important?
@@ -281,7 +309,8 @@ q:What lessons were learned?
 a:
 q:What would you have done differently?
 a:
-Leadership Principle - Dive Deep
+
+Leadership Principle : Have Backbone, Coding with Kids (Lead Center Instructor)
 q:What task did you face?
 a:
 q:Why was this important?
@@ -300,41 +329,31 @@ q:What lessons were learned?
 a:
 q:What would you have done differently?
 a:
-Leadership Principle - Have Backbone
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Deliver Results
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
+
+Leadership Principle : Deliver Results
+q: What task did you face?
+a: I was promoted to teaching a level IV class at Coding with Kids and there were a lot of projects that I felt were ineffective with teaching the kids core concepts. I felt as though the handouts and instructor notes weren't engaging enough to keep the students interested.
+
+q: Why was this important?
+a: This was important because as an instructor you want to inspire the students to dive deeper into Computer Science. If the projects aren't engaging then students will lose interest and stop learning.
+
+q: What was the scope of the project?
+a: The scope of this project was the customers (students and their parents).
+
+q: What significant obstacles did you face?
+a: The biggest obstacle was finding a way to keep the students engaged. I was able to figure this out through inquiring about games or subject matters that the students were interested in.
+
+q: How did you set priorites?
+a: The highest priority was figuring out what interested the students. Second was creating custom handout sheets to help the students with helpful algorithms and keywords.
+
+q: How was success measured?
+a: Success was measured on a weekly basis with a 5-10 minute recap on what subject was covered the previous week. I also had a lot of parents thank me every week for the custom handouts and correlating advanced Computer Science concepts to everyday events.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff was time for quality but in the long haul the parents really appreciated this. A lot parents thanked me and my rating was 4.7/5.0 by the time I left Coding with Kids.
+
+q: What lessons were learned?
+a: I learned how to take Computer Science subject matters and relate them to real world materials that students could understand more easily. Ex: One can think of an API as a menu at a restaurant. You are given a menu that states what you can order and restaurant (server) handles the reqeust and comes back with results (food or a rejection for a custom order).
+
+q: What would you have done differently?
+a: If I could do something differently I would have shared my method of teaching with more instructors, as I found it to be effective for my four classes.

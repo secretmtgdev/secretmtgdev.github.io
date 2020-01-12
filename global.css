@@ -30,16 +30,16 @@ main > section:nth-child(odd) {
     background-color: lightgrey;
 }
 
-#fractal {
-    background-image: url(./public/assets/images/fractal.jpg);
+#peerAdvisor {
+    background-image: url(./public/assets/images/peerAdvisor.jpg);
 }
 
-#space {
-    background-image: url(./public/assets/images/space.jpg);
+#band {
+    background-image: url(./public/assets/images/band.jpg);
 }
 
-#tundra {
-    background-image: url(./public/assets/images/tundra.jpg);
+#wedding {
+    background-image: url(./public/assets/images/wedding.jpg);
 }
 
 /*********************************************************************
@@ -80,7 +80,7 @@ nav > ul > li:hover {
     background-color: black;
     color: #fff;
     font-size: 2rem;
-    font-family: monospace;
+    font-family: sans-serif;
     height: var(--hundred);
 }
 

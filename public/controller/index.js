@@ -20,5 +20,5 @@ function setup() {
 }
 
 function loadPage(filename, foldername) {
-    $('main').load(`./views/${foldername}/${filename}.html`);
+    $('main').load(`./public/views/${foldername}/${filename}.html`);
 }

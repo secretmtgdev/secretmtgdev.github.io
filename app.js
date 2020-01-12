@@ -38,7 +38,7 @@ require('./config/passport')(passport);
 app.use('/users', users)
 
 // Sets the view 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '.')));
 
 app.listen(port, () => {
     console.log(`Server listening on port: ${port}`);

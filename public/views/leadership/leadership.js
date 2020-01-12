@@ -1,4 +1,4 @@
-ajaxCall('GET', './views/leadership/leadership.txt', parseLeadershipFile);
+ajaxCall('GET', './public/views/leadership/leadership.txt', parseLeadershipFile);
 
 /**
  * @method ajaxCall

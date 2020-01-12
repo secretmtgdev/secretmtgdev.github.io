@@ -112,7 +112,7 @@ a: I learned a lot about measuring user engagement and how autoplay works in Chr
 q: What would you have done differently?
 a: One of the things that I would have done differently was argue for my solution a little more strongly. I was pulled into a room with my manager and someone, who was needed for the good to go on the approved solutions. In my argument I did fumble a little bit but I definitely know that preparation and confidence are key to making valid arguments.
 
-Leadership Principle - Develop the Best, T-Mobile
+Leadership Principle - Develop the Best, Tmobile
 q: What task did you face?
 a: Onboarding another Engineer onto a project of mine.
 

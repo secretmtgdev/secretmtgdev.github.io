@@ -31,15 +31,15 @@ main > section:nth-child(odd) {
 }
 
 #fractal {
-    background-image: url(./assets/images/fractal.jpg);
+    background-image: url(./public/assets/images/fractal.jpg);
 }
 
 #space {
-    background-image: url(./assets/images/space.jpg);
+    background-image: url(./public/assets/images/space.jpg);
 }
 
 #tundra {
-    background-image: url(./assets/images/tundra.jpg);
+    background-image: url(./public/assets/images/tundra.jpg);
 }
 
 /*********************************************************************

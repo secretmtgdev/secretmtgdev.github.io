@@ -2,6 +2,7 @@
     --padding: 10px;
     --hundred: 100%;
     --navHeight: 75px;
+    --lightgrey: rgb(240, 240, 240);
 }
 
 html, body, main, ul {
@@ -28,7 +29,7 @@ main > section:nth-child(even) {
 
 main > section:nth-child(odd) {
     height: 50%;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--lightgrey);
 }
 
 #peerAdvisor {
@@ -41,6 +42,10 @@ main > section:nth-child(odd) {
 
 #wedding {
     background-image: url(./public/assets/images/wedding.jpg);
+}
+
+blockquote {
+    background-color: var(--lightgrey);
 }
 
 /*********************************************************************
@@ -87,7 +92,11 @@ nav > ul > li:hover {
 
 @media only screen and (max-width: 750px) {
     body {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    li[data-folder='register'] {
+        display: none;
     }
 
     main > section:nth-child(odd) {

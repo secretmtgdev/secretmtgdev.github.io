@@ -320,26 +320,6 @@ q:What would you have done differently?
 a:
 
 Leadership Principle : Have Backbone, Coding with Kids (Lead Center Instructor)
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-
-Leadership Principle : Deliver Results
 q: What task did you face?
 a: I was promoted to teaching a level IV class at Coding with Kids and there were a lot of projects that I felt were ineffective with teaching the kids core concepts. I felt as though the handouts and instructor notes weren't engaging enough to keep the students interested.
 
@@ -366,3 +346,31 @@ a: I learned how to take Computer Science subject matters and relate them to rea
 
 q: What would you have done differently?
 a: If I could do something differently I would have shared my method of teaching with more instructors, as I found it to be effective for my four classes.
+
+Leadership Principle : Deliver Results, Coding with Kids (Lead center instructor)
+q: What task did you face?
+a: Each week I was tasked to teach multiple topics amongst four different classes of varying levels. Some cases I had students, from a different level than the current class, come in to join a class.
+
+q: Why was this important?
+a: It was important that I take on the role of multiple level varying courses as I was the most experienced at the time.
+
+q: What was the scope of the project?
+a: The scope of the project was the students that I taught.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle that I faced was time management since there would be times at which a student or two from a higher or lower level class would show up for my current class as a makeup.
+
+q: How did you set priorites?
+a: I would first have my class work on a 5 minute backup project challenge, then get the other student started with either a project that they were continuing off of, or quickly go through a topic with them.
+
+q: How was success measured?
+a: Success was measured by the environment of the class. If everything was calm then it's great, if not then that's an indicator that things may have been a little haywire.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff is quality as limited time needed to be allocated between two groups. Most of the time I had a manager to come help me out but there were times in which everyone was busy helping out with the other classes in the center.
+
+q: What lessons were learned?
+a: I learned how to lead two different groups in the same timespan.
+
+q: What would you have done differently?
+a: I would first inquire if I'd have a makeup student a day prior to teaching so that I could effectively prepare for the situation.

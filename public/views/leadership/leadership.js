@@ -1,4 +1,5 @@
 ajaxCall('GET', './public/views/leadership/leadership.txt', parseLeadershipFile);
+var leadershipPrinciples = [];
 
 /**
  * @method ajaxCall
@@ -38,10 +39,16 @@ function parseLeadershipFile(response) {
         if(lines[i].includes('Leadership Principle')) {
             var newSection = document.createElement('section');
             var header = document.createElement('h3');
-            header.innerText = lines[i].split(':')[1].trimLeft();
+            let leaderSplit = lines[i].split(':')[1].trimLeft();
+            header.innerText = leaderSplit;
             newSection.appendChild(header);
             newSection.dataset.id = ++target;
-            document.querySelector('article.leadership').appendChild(newSection);
+            newSection.id = target;
+            document.querySelector('div.leadership').appendChild(newSection);
+            leadershipPrinciples.push({
+                principle: leaderSplit.split(',')[0],
+                link: target
+            });
             section = document.querySelector(`section[data-id='${target}']`);
         } else if(lines[i].includes('q:')) {
             var par = document.createElement('p');
@@ -51,6 +58,21 @@ function parseLeadershipFile(response) {
             constructLeadershipBlock(section, frag, lines[i].split(':')[1].trimLeft());
         }
     }
+
+    // set the leadership links
+    var navList = document.createElement('ul');
+    for(let lp of leadershipPrinciples) {
+        var link = document.createElement('li');
+        var anchor = document.createElement('a');
+        link.innerText = lp.principle;
+        anchor.href = `#${lp.link}`;
+        anchor.appendChild(link);
+        navList.appendChild(anchor);
+    }
+    let parent = document.querySelector('article');
+    let nextSibling = document.querySelector('article > div.leadership');
+    console.log(nextSibling)
+    parent.insertBefore(navList, nextSibling);
 }
 
 /**

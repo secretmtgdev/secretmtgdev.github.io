@@ -106,7 +106,7 @@ nav > ul > li:hover {
         display: none;
     }
 
-    main > section:nth-child(odd) {
+    main > section:nth-child(odd), blockquote {
         height: 100%;
         padding: 1em;
     }
@@ -126,7 +126,7 @@ nav > ul > li:hover {
     }
 
     #band, #peerAdvisor, #wedding {
-        background-size: contain;
+        background-size: cover;
     }
 
     #peerAdvisor {

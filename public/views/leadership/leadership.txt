@@ -6,7 +6,7 @@ q: Why was this important?
 a: This was important to Product Owners and Managers to keep track of active servers and applications running on those servers.
 
 q: What was the scope of the project?
-a: The scope of this project was restricted to all of those under Integrated Systems & Automation at T-Mobile.
+a: The scope of this project was the MEAN stack, spinning up a server, updating documentation, reaching out to several developers and Engineers, and a business justification statement for the project. This project was restricted to all of those under Integrated Systems & Automation at T-Mobile.
 
 q: What significant obstacles did you face?
 a: The biggest obstacle faced was trying to gather all of the information as some Product Owners/Developers didn't keep documentation.
@@ -35,7 +35,7 @@ q: Why was this important?
 a: This was important to the Bing team as we were trying to promote a new way for users to access one of their favorite games.
 
 q: What was the scope of the project?
-a: The scope of this project was 100s of thousands of people.
+a: The scope of this project included meeting with developers on the Bing team, utilizing serviceworkers, and appropriate documentation as another developer used the banner that I created for MicrosoftCasualGames.com. This banner was displayed to 100s of thousands of people.
 
 q: What significant obstacles did you face?
 a: One of the biggest obstacles faced was a lack of communication with the POC for the extension. I looped in the POC's manager which then got the ball rolling.
@@ -56,7 +56,7 @@ q: What would you have done differently?
 a: I would have asked for all of the requirements up front, as there were continual minor asks for styling or adding an additional option to the banner.
 
 
-Leadership Principle : Invent and Simplify, T-Mobile (Full time)
+Leadership Principle : Invent and Simplify, T-Mobile (Fulltime)
 q: What task did you face?
 a: The task that I faced was creating a script that would help Network Engineers at T-Mobile with updating several boxes.
 
@@ -86,7 +86,7 @@ a: I would have definitely focused a lot more time into researching Ansible to s
 
 Leadership Principle : Are Right, A Lot, Microsoft (Contract)
 q: What task did you face?
-a: Blocked video autoplay solution
+a: Blocked video autoplay solution.
 
 q: Why was this important?
 a: This is important since a lot of users have had a negative experience when attempting to play some of our HTML5 & flash games. Some users have reported that they will be in a continually halted stated on the site and never see an AD nor the gameframe.
@@ -224,15 +224,15 @@ a: As this was during my 4 month as an intern at T-Mobile a lot was learned. The
 q: What would you have done differently?
 a: I would have chosen meaningful variable and function names.
 
-Leadership Principle : Frugality
-q:What task did you face?
-a:
+Leadership Principle : Frugality, T-Mobile (Fulltime)
+q: What task did you face?
+a: The task itself was the VEDA project. I had worked with a fellow Engineer on a specific set of components for the project but in October 2018 they were pulled off of the project to focus on another task. Rather than having another Engineer join the team I stepped up to the plate and took charge over the components. I developed a multi-purpose banner and a specialized form for handling requests.
 
-q:Why was this important?
-a:
+q: Why was this important?
+a: This was important because it taught me about adaptation to work environment when a team is a down a member.
 
-q:What was the scope of the project?
-a:
+q: What was the scope of the project?
+a: The scope of the project was a full fledged platform that would eventually replace Pronghorn as the internal hub for ISA's applications.
 
 q:What significant obstacles did you face?
 a:
@@ -260,7 +260,7 @@ q: Why was this important?
 a: This was important because it allowed me to share what I'd learned with my fellow teammates. The MEAN stack later became the base for all of my projects at T-Mobile.
 
 q: What was the scope of the project?
-a: The scope of this project involved myself.
+a: The scope of this project was the MEAN stack.
 
 q: What significant obstacles did you face?
 a: The biggest obstacle was time, but once my manager found out that I was studying Angular on my own time he decided to incorporate as a part of my daily routine. 
@@ -280,44 +280,61 @@ a: I learned to continually keep learning each and everyday. It's never a bad th
 q: What would you have done differently?
 a: I would manage my time better. Write down what I need to do for the day and how I'm to accomplish my daily goals.
 
-Leadership Principle : Earn Trust
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle : Dive Deep
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
+Leadership Principle : Earn Trust, T-Mobile (Intern/Fulltime)
+q: What task did you face?
+a: Multiple tasks and projects were done and with the completion of each one I gained the trust of my fellow Engineers and Managers.
+
+q: Why was this important?
+a: Earning trust is crucial in a business since it leads to collaboration which can spark creativity for growth!
+
+q: What was the scope of the project?
+a: The scope of this project was everyone that I worked and met with at T-Mobile.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle that I faced was my own timidness. As an introvert it takes me awhile to come out of my shell to talk to others.
+
+q: How did you set priorites?
+a: The first thing was to gather up the courage to speak my own thoughts. After this was staying true to my word with each promise, within reason.
+
+q: How was success measured?
+a: Success was measured by the number of people that I positively impacted at T-Mobile.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff for earning trust is the time that it takes to build up the courage to communicate with others, to speak one's own mind.
+
+q: What lessons were learned?
+a: I learned to speak effectively with my fellow peers and the first steps towards becoming a leader.
+
+q: What would you have done differently?
+a: I would have practiced talking in a mirror before the first couple of times I had spoken during our weekly team meetings.
+
+Leadership Principle : Dive Deep, Microsoft (Contract)
+q: What task did you face?
+a: I was working on trying to create a promotion for specific Microsoft games on the end screen of each of our HTML5 and flash games. The idea was to cross sell first party games over third party ones. While tasked with this project I thought about how I fcould effectively style the crosssells nicely using something other than tables (which is how a lot of things on zone are styled). I turned to floats at first but then dived into flexbox as IE supports most of flexbox layout!
+
+q: Why was this important?
+a: This is important as it brings more revenue to the team by publicizing 1st party games.
+
+q: What was the scope of the project?
+a: Scope of this project is a promotional segment of the end game page that is displayed to 100s of thousands of gamers on zone.msn.com.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle faced was ensuring that the styling would work on IE 11.
+
+q: How did you set priorites?
+a: I dove into modern practices for layout, I wanted to use grid layout but unfortuneatley IE just stacks each grid element on top of one another.
+
+q: How was success measured?
+a: Success was measured through the number of hits to our 1st party games from the same domain on a different gameplayer instance.
+
+q: What tradeoffs were made?
+a: Biggest tradeoff was time but this was well worth it as quality was important.
+
+q: What lessons were learned?
+a: This was the first time that I had dived into flexbox layout and so I learned the bare basics of flexbox from this task.
+
+q: What would you have done differently?
+a: Knowing what I know now, I would have set up grid layout for Chrome, Firefox, and Edge and then a flexbox alternative for IE. My reasoning behind this is because the user count on IE is dwindling and most browsers aretrying to keep up with the WWW standards.
 
 Leadership Principle : Have Backbone, Coding with Kids (Lead Center Instructor)
 q: What task did you face?
@@ -327,7 +344,7 @@ q: Why was this important?
 a: This was important because as an instructor you want to inspire the students to dive deeper into Computer Science. If the projects aren't engaging then students will lose interest and stop learning.
 
 q: What was the scope of the project?
-a: The scope of this project was the customers (students and their parents).
+a: The scope of this project was finding real world examples CS examples to relay to the customers (students and their parents).
 
 q: What significant obstacles did you face?
 a: The biggest obstacle was finding a way to keep the students engaged. I was able to figure this out through inquiring about games or subject matters that the students were interested in.
@@ -355,7 +372,7 @@ q: Why was this important?
 a: It was important that I take on the role of multiple level varying courses as I was the most experienced at the time.
 
 q: What was the scope of the project?
-a: The scope of the project was the students that I taught.
+a: The scope of the project was successfully running a class with two different groups of students.
 
 q: What significant obstacles did you face?
 a: The biggest obstacle that I faced was time management since there would be times at which a student or two from a higher or lower level class would show up for my current class as a makeup.

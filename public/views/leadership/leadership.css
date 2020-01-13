@@ -1,5 +1,13 @@
 @media only screen and (max-width: 750px) {
-    section {
+    section, ul{
         text-align: center;
+    }
+    
+    article > h2 + ul {
+        list-style-type: none;
+    }
+
+    article > h2 + ul > a > li {
+        padding: 0.5em;
     }
 }

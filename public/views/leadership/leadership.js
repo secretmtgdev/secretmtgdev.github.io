@@ -10,15 +10,30 @@ var leadershipPrinciples = [];
  * @param {function} handler The handler function on response.
  */
 function ajaxCall(VERB, path, handler, body) {
-    var request = new XMLHttpRequest();
-    request.open(VERB, path);
-    request.onreadystatechange = function() {
-        if(this.readyState === 4 && this.status === 200) {
-            handler(this.responseText);
+    if(window.fetch) {
+        var headers = new Headers();
+        headers.append('content-type', 'application/json');
+    
+        const request = new Request(path, {
+            method: VERB,
+            headers,
+            body,
+            mode: 'cors', 
+            cache: 'default'
+        });
+    
+        fetch(request).then(response => response.text().then(txt => handler(txt)));
+    } else {
+        var request = new XMLHttpRequest();
+        request.open(VERB, path);
+        request.onreadystatechange = function() {
+            if(this.readyState === 4 && this.status === 200) {
+                handler(this.responseText);
+            }
         }
+        if(body) request.send(body)
+        else request.send();
     }
-    if(body) request.send(body)
-    else request.send();
 }
 
 /**
@@ -71,7 +86,6 @@ function parseLeadershipFile(response) {
     }
     let parent = document.querySelector('article');
     let nextSibling = document.querySelector('article > div.leadership');
-    console.log(nextSibling)
     parent.insertBefore(navList, nextSibling);
 }
 

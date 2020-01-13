@@ -21,7 +21,6 @@ main {
 }
 
 main > section:nth-child(even) {
-    height: var(--hundred);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,18 +29,6 @@ main > section:nth-child(even) {
 main > section:nth-child(odd) {
     height: 50%;
     background-color: var(--lightgrey);
-}
-
-#peerAdvisor {
-    background-image: url(./public/assets/images/peerAdvisor.jpg);
-}
-
-#band {
-    background-image: url(./public/assets/images/band.jpg);
-}
-
-#wedding {
-    background-image: url(./public/assets/images/wedding.jpg);
 }
 
 blockquote {
@@ -85,14 +72,34 @@ nav > ul > li:hover {
         grid-template-columns: 1fr 2fr;
     }
 
+    main > section:nth-child(even) {
+        height: var(--hundred);
+    }
+
     main > section:nth-child(odd) {
         height: 50%;
+    }
+    
+    #peerAdvisor {
+        background-image: url(./public/assets/images/peerAdvisor.jpg);
+    }
+
+    #band {
+        background-image: url(./public/assets/images/band.jpg);
+    }
+
+    #wedding {
+        background-image: url(./public/assets/images/wedding.jpg);
     }
 }
 
 @media only screen and (max-width: 750px) {
     body {
         font-size: 20px;
+    }
+
+    main > section:nth-child(even) {
+        height: 100%;
     }
 
     li[data-folder='register'] {
@@ -119,8 +126,19 @@ nav > ul > li:hover {
     }
 
     #band, #peerAdvisor, #wedding {
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+    }
+
+    #peerAdvisor {
+        background-image: url(./public/assets/images/peerAdvisor2.jpg);
+    }
+
+    #band {
+        background-image: url(./public/assets/images/band2.jpg);
+    }
+
+    #wedding {
+        background-image: url(./public/assets/images/wedding2.jpg);
     }
 }
 

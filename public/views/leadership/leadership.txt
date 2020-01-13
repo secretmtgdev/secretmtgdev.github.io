@@ -252,25 +252,34 @@ a:
 q:What would you have done differently?
 a:
 
-Leadership Principle : Learn and Be Curious
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
+Leadership Principle : Learn and Be Curious, T-Mobile (Intern)
+q: What task did you face?
+a: When I joined T-Mobile there was a lot of debate on my team as to whether or not we should continue developing tools using the LAMP stack or the MEAN stack. Most of the older Engineers were comfortable with the LAMP stack but the younger Engineers were advocating for ease of MEAN. I dove into the MEAN stack and would stay after my work hours to continue learning more and more about Angular. 
+
+q: Why was this important?
+a: This was important because it allowed me to share what I'd learned with my fellow teammates. The MEAN stack later became the base for all of my projects at T-Mobile.
+
+q: What was the scope of the project?
+a: The scope of this project involved myself.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle was time, but once my manager found out that I was studying Angular on my own time he decided to incorporate as a part of my daily routine. 
+
+q: How did you set priorites?
+a: I would set work and my tasks over my own personal learning, but would spend my downtime learning how Angular components work.
+
+q: How was success measured?
+a: Success was measured in future projects.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff was time, as a majority of the learning was during my downtime and time is usually limited.
+
+q: What lessons were learned?
+a: I learned to continually keep learning each and everyday. It's never a bad thing to touch upon something that you learned awhile back, as sometimes the recollection may be off.
+
+q: What would you have done differently?
+a: I would manage my time better. Write down what I need to do for the day and how I'm to accomplish my daily goals.
+
 Leadership Principle : Earn Trust
 q:What task did you face?
 a:

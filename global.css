@@ -93,16 +93,29 @@ nav > ul > li:hover {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     body {
         font-size: 20px;
+    }
+
+    nav > ul {
+        text-align: center;
     }
 
     main > section:nth-child(even) {
         height: 100%;
     }
 
-    li[data-folder='register'] {
+    li[data-folder='register'], 
+    li[data-folder='learning/sde'], 
+    li[data-folder='projects'],
+    li[data-folder='contact'] {
         display: none;
     }
 

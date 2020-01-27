@@ -66,7 +66,7 @@ nav > ul > li:hover {
     cursor: pointer;
 }
 
-// special thanks to stackoverflow user 'yosefrow' for this repsonsive <pre> solution
+/** special thanks to stackoverflow user 'yosefrow' for this repsonsive <pre> solution */
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;

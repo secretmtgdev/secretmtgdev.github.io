@@ -1,4 +1,3 @@
 # Github hosted page(
 
-## Web page address
-[ThetaTest](https://thetatest.org)
+## [Web page address](https://thetatest.org)

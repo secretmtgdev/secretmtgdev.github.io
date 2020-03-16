@@ -196,7 +196,7 @@ a: The biggest lesson was learning a lot about the interaction between C#, ASPX,
 q: What would you have done differently?
 a: For the future, I will know where to look in terms of the project for modifying various controllers that impact certain views.
 
-Leadership Principle : Bias of Action T-Mobile 
+Leadership Principle : Bias of Action, T-Mobile 
 q: What task did you face?
 a: We were under a time crunch in order to migrate all of our data from Granite to EAI (Ericsson application). By the time that I was onbaorded onto this project we had data in both Granite and EAI but we wanted to validate that the current data in EAI was up to date with the latest from Granite.
 
@@ -308,7 +308,7 @@ a: I learned to speak effectively with my fellow peers and the first steps towar
 q: What would you have done differently?
 a: I would have practiced talking in a mirror before the first couple of times I had spoken during our weekly team meetings.
 
-Leadership Principle : Dive Deep, Microsoft (Contract)
+Leadership Principle : Dive Deep, Microsoft
 q: What task did you face?
 a: I was working on trying to create a promotion for specific Microsoft games on the end screen of each of our HTML5 and flash games. The idea was to cross sell first party games over third party ones. While tasked with this project I thought about how I fcould effectively style the crosssells nicely using something other than tables (which is how a lot of things on zone are styled). I turned to floats at first but then dived into flexbox as IE supports most of flexbox layout!
 
@@ -336,7 +336,7 @@ a: This was the first time that I had dived into flexbox layout and so I learned
 q: What would you have done differently?
 a: Knowing what I know now, I would have set up grid layout for Chrome, Firefox, and Edge and then a flexbox alternative for IE. My reasoning behind this is because the user count on IE is dwindling and most browsers aretrying to keep up with the WWW standards.
 
-Leadership Principle : Have Backbone, Coding with Kids (Lead Center Instructor)
+Leadership Principle : Have Backbone, Coding with Kids
 q: What task did you face?
 a: I was promoted to teaching a level IV class at Coding with Kids and there were a lot of projects that I felt were ineffective with teaching the kids core concepts. I felt as though the handouts and instructor notes weren't engaging enough to keep the students interested.
 
@@ -364,7 +364,7 @@ a: I learned how to take Computer Science subject matters and relate them to rea
 q: What would you have done differently?
 a: If I could do something differently I would have shared my method of teaching with more instructors, as I found it to be effective for my four classes.
 
-Leadership Principle : Deliver Results, Coding with Kids (Lead center instructor)
+Leadership Principle : Deliver Results, Coding with Kids
 q: What task did you face?
 a: Each week I was tasked to teach multiple topics amongst four different classes of varying levels. Some cases I had students, from a different level than the current class, come in to join a class.
 

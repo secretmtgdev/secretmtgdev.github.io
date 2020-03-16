@@ -66,6 +66,13 @@ nav > ul > li:hover {
     cursor: pointer;
 }
 
+/** special thanks to stackoverflow user 'yosefrow' for this repsonsive <pre> solution */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
 @media only screen and (min-width: 751px) {
     header {
         display: grid;

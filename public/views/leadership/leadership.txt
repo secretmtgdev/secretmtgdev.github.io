@@ -1,4 +1,4 @@
-Leadership Principle : Customer Obession, T-Mobile (Intern)
+Leadership Principle : Customer Obession, T-Mobile
 q: What task did you face?
 a: Developing an internal tool at T-Mobile to showcase various applications and crucial information on them.
 
@@ -27,7 +27,7 @@ q: What would you have done differently?
 a: I would have thought more about the structure of the data and used this knowledge to chose the appropriate DBMS.
 
 
-Leadership Principle : Ownership, Microsoft (Contract)
+Leadership Principle : Ownership, Microsoft
 q: What task did you face?
 a: I was faced with the task of promoting a Microsoft Solitaire extension for Chrome and Firefox.
 
@@ -56,7 +56,7 @@ q: What would you have done differently?
 a: I would have asked for all of the requirements up front, as there were continual minor asks for styling or adding an additional option to the banner.
 
 
-Leadership Principle : Invent and Simplify, T-Mobile (Fulltime)
+Leadership Principle : Invent and Simplify, T-Mobile
 q: What task did you face?
 a: The task that I faced was creating a script that would help Network Engineers at T-Mobile with updating several boxes.
 
@@ -84,7 +84,7 @@ a: I learned more about writing Ansible Playbooks and ssh:keygen.
 q: What would you have done differently?
 a: I would have definitely focused a lot more time into researching Ansible to see if there were more functions that I could have utilized.
 
-Leadership Principle : Are Right, A Lot, Microsoft (Contract)
+Leadership Principle : Are Right, A Lot, Microsoft 
 q: What task did you face?
 a: Blocked video autoplay solution.
 
@@ -112,7 +112,7 @@ a: I learned a lot about measuring user engagement and how autoplay works in Chr
 q: What would you have done differently?
 a: One of the things that I would have done differently was argue for my solution a little more strongly. I was pulled into a room with my manager and someone, who was needed for the good to go on the approved solutions. In my argument I did fumble a little bit but I definitely know that preparation and confidence are key to making valid arguments.
 
-Leadership Principle : Develop the Best, T-Mobile (Contract)
+Leadership Principle : Develop the Best, T-Mobile 
 q: What task did you face?
 a: Onboarding another Engineer onto a project of mine.
 
@@ -140,7 +140,7 @@ a: I learned a lot about the importance of Unit Testing, collaboration, and prop
 q: What would you have done differently?
 a: Given what I've gone through there I would have split tasks, between the Engineer that was onboarded under me, based off of strongest skills. For example, the other Engineer is great with layout and unit testing so instead of assigning the Engineer to work on components as a whole, I would have the Engineer focus on the SASS and HTML files.
 
-Leadership Principle : Insist on the highest standard, Microsoft (Contract)
+Leadership Principle : Insist on the highest standard, Microsoft 
 q: What task did you face?
 a: It's not just one single tasks but more like an extension off of each task I've worked on at Microsoft. I always strive to learn where I could improve and ensure that my work on the next task will always be better than my work on the previous task. I've modified a lot of the ASPX files to follow proper HTML semantics, removed table stylling, and following a practice with documentation over each function stating the purpose of it and the types of parameters/return values. 
 
@@ -168,7 +168,7 @@ a: I learned why the zone code base is the way it is due to lack of communicatio
 q: What would you have done differently?
 a: If I could go back to the start of the Zone project (15+ years ago) I would insist on thorough documentation, as semantic HTML wasn't available at the time. If I could go back in time to when floats were being used I would urge the developers to use floats for styling rather than table elements as one should keep the HTML separate from the CSS.
 
-Leadership Principle : Think Big, Microsoft (Contract)
+Leadership Principle : Think Big, Microsoft 
 q: What task did you face?
 a: The task is the infinity scroller that I'm currently developing for the front page of zone.msn.com.
 
@@ -196,7 +196,7 @@ a: The biggest lesson was learning a lot about the interaction between C#, ASPX,
 q: What would you have done differently?
 a: For the future, I will know where to look in terms of the project for modifying various controllers that impact certain views.
 
-Leadership Principle : Bias of Action T-Mobile (Intern)
+Leadership Principle : Bias of Action T-Mobile 
 q: What task did you face?
 a: We were under a time crunch in order to migrate all of our data from Granite to EAI (Ericsson application). By the time that I was onbaorded onto this project we had data in both Granite and EAI but we wanted to validate that the current data in EAI was up to date with the latest from Granite.
 
@@ -224,7 +224,7 @@ a: As this was during my 4 month as an intern at T-Mobile a lot was learned. The
 q: What would you have done differently?
 a: I would have chosen meaningful variable and function names.
 
-Leadership Principle : Frugality, T-Mobile (Fulltime)
+Leadership Principle : Frugality, T-Mobile 
 q: What task did you face?
 a: The task itself was the VEDA project. I had worked with a fellow Engineer on a specific set of components for the project but in October 2018 they were pulled off of the project to focus on another task. Rather than having another Engineer join the team I stepped up to the plate and took charge over the components. I developed a multi-purpose banner and a specialized form for handling requests.
 
@@ -234,25 +234,25 @@ a: This was important because it taught me about adaptation to work environment 
 q: What was the scope of the project?
 a: The scope of the project was a full fledged platform that would eventually replace Pronghorn as the internal hub for ISA's applications.
 
-q:What significant obstacles did you face?
-a:
+q: What significant obstacles did you face?
+a: The biggest obstacles included resourcecs being fpulled from the project from time to time.
 
-q:How did you set priorites?
-a:
+q: How did you set priorites?
+a: Priorities were based off of what features the customers wanted immediately.
 
-q:How was success measured?
-a:
+q: How was success measured?
+a: Success was meaasured by usage of the platform as well as customer feedback. There's no point in saying an application is successful if no one is providing any feedback.
 
-q:What tradeoffs were made?
-a:
+q: What tradeoffs were made?
+a: The biggest trade off was time to the lack of resources available.
 
-q:What lessons were learned?
-a:
+q: What lessons were learned?
+a: The biggest lesson that was learned was to manage priorities in a project since there's no telling what will happen later down the road with other people's time tables.
 
-q:What would you have done differently?
-a:
+q: What would you have done differently?
+a: I would have written up an entire layout plan for the project. I would have also run the project following a sprint-like cadence
 
-Leadership Principle : Learn and Be Curious, T-Mobile (Intern)
+Leadership Principle : Learn and Be Curious, T-Mobile 
 q: What task did you face?
 a: When I joined T-Mobile there was a lot of debate on my team as to whether or not we should continue developing tools using the LAMP stack or the MEAN stack. Most of the older Engineers were comfortable with the LAMP stack but the younger Engineers were advocating for ease of MEAN. I dove into the MEAN stack and would stay after my work hours to continue learning more and more about Angular. 
 
@@ -280,7 +280,7 @@ a: I learned to continually keep learning each and everyday. It's never a bad th
 q: What would you have done differently?
 a: I would manage my time better. Write down what I need to do for the day and how I'm to accomplish my daily goals.
 
-Leadership Principle : Earn Trust, T-Mobile (Intern/Fulltime)
+Leadership Principle : Earn Trust, T-Mobile 
 q: What task did you face?
 a: Multiple tasks and projects were done and with the completion of each one I gained the trust of my fellow Engineers and Managers.
 

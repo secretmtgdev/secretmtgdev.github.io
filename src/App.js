@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Backtracking from './components/backtracking';
+import BinarySearch from './components/binarySearch';
+import DynamicProgramming from './components/dynamicProgramming';
+import Graphs from './components/graphs';
+import Linkedlists from './components/linkedlists';
+import SlidingWindow from './components/slidingWindow';
+import Stacks from './components/stacks';
+import Trees from './components/trees';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 data-level='2'>Cracking the FAANG interviews</h1>
+      <Stacks />
+      <BinarySearch />
+      <SlidingWindow />
+      <Linkedlists />
+      <Backtracking />
+      <Graphs />
+      <Trees />
+      <DynamicProgramming />
     </div>
   );
 }

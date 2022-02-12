@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3577a75b.css",
+    "main.js": "/static/js/main.8627dd31.js",
+    "static/js/787.873ea03d.chunk.js": "/static/js/787.873ea03d.chunk.js",
+    "static/media/meta.png": "/static/media/meta.cc55bf0c0e573ed70f08.png",
+    "static/media/amazon.png": "/static/media/amazon.2aa341074f828923f29f.png",
+    "static/media/airbnb.png": "/static/media/airbnb.6dac181fda1e854f8a71.png",
+    "static/media/expedia.png": "/static/media/expedia.7af98f32490f6737c9ee.png",
+    "static/media/adobe.png": "/static/media/adobe.0011862471cad889d37c.png",
+    "static/media/extrahop.png": "/static/media/extrahop.31694ea44618b0df9dbb.png",
+    "static/media/uber.png": "/static/media/uber.86a565c8a1c209fd2f36.png",
+    "static/media/google.png": "/static/media/google.14b77d0f81270d2d6a75.png",
+    "static/media/linkedin.png": "/static/media/linkedin.75a3164bd4f60c90ccbc.png",
+    "static/media/lyft.png": "/static/media/lyft.527419664fcd2726385d.png",
+    "static/media/robinhood.png": "/static/media/robinhood.bd8bcec53f7d503310c3.png",
+    "index.html": "/index.html",
+    "main.3577a75b.css.map": "/static/css/main.3577a75b.css.map",
+    "main.8627dd31.js.map": "/static/js/main.8627dd31.js.map",
+    "787.873ea03d.chunk.js.map": "/static/js/787.873ea03d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3577a75b.css",
+    "static/js/main.8627dd31.js"
+  ]
+}

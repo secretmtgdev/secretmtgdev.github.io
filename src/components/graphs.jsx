@@ -1,5 +1,6 @@
 import React from "react";
 import ProblemDescription from "./problemDescription";
+import Latex from "react-latex";
 
 const Graphs = () => {
     return(
@@ -20,9 +21,47 @@ const Graphs = () => {
                 />
                 <ProblemDescription
                     title='Number of islands'
-                    hints={[]}
-                    companies={['google']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'Draw out the problem and think of how to visually see an island',
+                        'Graph searching algorithms will help'
+                    ]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'linkedin', 'meta', 'microsoft', 'oracle', 'uber']}
+                    problems={[
+                        {
+                            title: 'Surrounded regions',
+                            link: 'https://leetcode.com/problems/surrounded-regions/'
+                        },
+                        {
+                            title: 'Walls and gates',
+                            link: 'https://leetcode.com/problems/walls-and-gates/'
+                        },
+                        {
+                            title: 'Number of islands II',
+                            link: 'https://leetcode.com/problems/number-of-islands-ii/'
+                        },
+                        {
+                            title: 'Number of connected components in an undirected graph',
+                            link: 'https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/'
+                        },
+                        {
+                            title: 'Number of distinct islands',
+                            link: 'https://leetcode.com/problems/number-of-distinct-islands/'
+                        },
+                        {
+                            title: 'Max area of island',
+                            link: 'https://leetcode.com/problems/max-area-of-island/'
+                        },
+                        {
+                            title: 'Count sub islands',
+                            link: 'https://leetcode.com/problems/count-sub-islands/'
+                        },
+                        {
+                            title: 'Find all groups of farmland',
+                            link: 'https://leetcode.com/problems/find-all-groups-of-farmland/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(rows * cols)$</Latex>}
+                    spaceComplexity={<Latex>$O(min(rows, cols))$</Latex>}
                 />
                 <ProblemDescription
                     title='Clone graph'

@@ -166,9 +166,24 @@ const Backtracking = () => {
                 />
                 <ProblemDescription
                     title='Subsets II'
-                    hints={[]}
-                    companies={['meta']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'Draw out the decision tree, can include a value or not include it', 
+                        'When excluding a value all copies of it should be skipped as well to avoid duplication',
+                        'Sort the array in order to skip over duplicated values'
+                    ]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'meta']}
+                    problems={[
+                        {
+                            title: 'Subsets',
+                            link: 'https://leetcode.com/problems/subsets/'
+                        },
+                        {
+                            title: 'Find array given subset sums',
+                            link: 'https://leetcode.com/problems/find-array-given-subset-sums/'
+                        }
+                    ]}
+                    spaceComplexity={<Latex>$O(n*2^n)$</Latex>}
+                    timeComplexity={<Latex>$O(n*2^n)$</Latex>}
                 />
             </details>
         </section>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Latex from 'react-latex';
 
 /**
  * 
@@ -6,13 +7,20 @@ import React from 'react';
  * @param {hints} param1, [List<String>] hints used
  * @param {companies} param2, [List<String>] companies asking the problem
  * @param {problems} param3, [List<{title: string, link: string}>] related problems
+ * @param {timeComplexity} param4, [Optional<string>] run time
+ * @param {spaceComplexity} param4, [Optional<string>] auxiliary space used
  * @returns 
  */
-const ProblemDescription = ({title, hints, companies, problems}) => {
+const ProblemDescription = ({title, hints, companies, problems, timeComplexity, spaceComplexity}) => {
     return (
         <details>
             <summary data-level='3'>{title}</summary>
             <div data-level='4'>
+                <h3>Complexity</h3>
+                <div>
+                    <p>Time Complexity:  {timeComplexity}</p>
+                    <p>Space Complexity: {spaceComplexity}</p>
+                </div>
                 <h3>Hints</h3>
                     <ul>
                         {hints.map((hint, idx) => (

@@ -28,8 +28,29 @@ const Backtracking = () => {
                 <ProblemDescription
                     title='Subsets'
                     hints={[]}
-                    companies={['meta']}
-                    problems={[{title: '', link: ''}]}
+                    companies={['amazon', 'apple', 'google', 'meta', 'microsoft', 'twitter']}
+                    problems={[
+                        {
+                            title: 'Subsets II',
+                            link: 'https://leetcode.com/problems/subsets-ii/'
+                        },
+                        {
+                            title: 'Generalized abbreviation',
+                            link: 'https://leetcode.com/problems/generalized-abbreviation/'
+                        },
+                        {
+                            title: 'Letter case permutation',
+                            link: 'https://leetcode.com/problems/letter-case-permutation/'
+                        },
+                        {
+                            title: 'Find array given subset sums',
+                            link: 'https://leetcode.com/problems/find-array-given-subset-sums/'
+                        },
+                        {
+                            title: 'Count number of maximum bitwise-or subsets',
+                            link: 'https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/'
+                        }
+                    ]}
                 />
                 <ProblemDescription
                     title='Palindrome partitioning'
@@ -39,9 +60,29 @@ const Backtracking = () => {
                 />
                 <ProblemDescription
                     title='Letter combinations of a phone number'
-                    hints={[]}
-                    companies={['amazon']}
-                    problems={[{title: '', link: ''}]}
+                    hints={
+                        [
+                            'Draw out the decision tree and check for a pattern',
+                            'This is a backtracking problem but the digit size is very small'
+                        ]
+                    }
+                    companies={['adobe', 'amazon', 'apple', 'google', 'meta', 'microsoft', 'twitter', 'uber']}
+                    problems={[
+                        {
+                            title: 'Generate parentheses',
+                            link: 'https://leetcode.com/problems/generate-parentheses/'
+                        },
+                        {
+                            title: 'Combination sum',
+                            link: 'https://leetcode.com/problems/combination-sum/'
+                        },
+                        {
+                            title: 'Binary watch',
+                            link: 'https://leetcode.com/problems/binary-watch/submissions/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(n * 4^n)$</Latex>}
+                    spaceComplexity={<Latex>$O(n)$ - only considering recursive call stack</Latex>}
                 />
                 <ProblemDescription
                     title='Splitting a string into descending consecutive integers'

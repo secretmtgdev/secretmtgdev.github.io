@@ -90,8 +90,8 @@ const Graphs = () => {
                 <ProblemDescription
                     title='Word search'
                     hints={[]}
-                    companies={['meta']}
-                    problems={[{title: '', link: ''}]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'meta', 'microsoft', 'oracle', 'snapchat', 'uber']}
+                    problems={[{title: 'Word search II', link: 'https://leetcode.com/problems/word-search-ii/'}]}
                 />
                 <ProblemDescription
                     title='Island perimeter'

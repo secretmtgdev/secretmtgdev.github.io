@@ -15,9 +15,44 @@ const Graphs = () => {
                 />
                 <ProblemDescription
                     title='Course schedule II'
-                    hints={[]}
-                    companies={['google']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'If there is a cycle then the classes cannot be completed',
+                        'Utilize topological sort for ordering',
+                        'Keep track of the current nodes in teh path to avoid a cycle'
+                    ]}
+                    companies={['amazon', 'apple', 'google', 'lyft', 'meta', 'microsoft', 'uber']}
+                    problems={[
+                        {
+                            title: 'Course schedule',
+                            link: 'https://leetcode.com/problems/course-schedule/'
+                        },
+                        {
+                            title: 'Alien dictionary',
+                            link: 'https://leetcode.com/problems/alien-dictionary/'
+                        },
+                        {
+                            title: 'Minimum height trees',
+                            link: 'https://leetcode.com/problems/minimum-height-trees/'
+                        },
+                        {
+                            title: 'Sequence reconstruction',
+                            link: 'https://leetcode.com/problems/sequence-reconstruction/'
+                        },
+                        {
+                            title: 'Course schedule III',
+                            link: 'https://leetcode.com/problems/course-schedule-iii/'
+                        },
+                        {
+                            title: 'Parallel courses',
+                            link: 'https://leetcode.com/problems/parallel-courses/'
+                        },
+                        {
+                            title: 'Find all possible recipes from given supplies',
+                            link: 'https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(E + V)$</Latex>}
+                    spaceComplexity={<Latex>$O(E + V)$</Latex>}
                 />
                 <ProblemDescription
                     title='Number of islands'
@@ -89,7 +124,10 @@ const Graphs = () => {
                 />
                 <ProblemDescription
                     title='Word search'
-                    hints={[]}
+                    hints={[
+                        'This is an extension of word matching in a string',
+                        'Utilize graph traversals to navigate through the matrix on appropriate paths'
+                    ]}
                     companies={['adobe', 'amazon', 'apple', 'google', 'meta', 'microsoft', 'oracle', 'snapchat', 'uber']}
                     problems={[{title: 'Word search II', link: 'https://leetcode.com/problems/word-search-ii/'}]}
                 />

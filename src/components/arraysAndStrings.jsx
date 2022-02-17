@@ -20,6 +20,31 @@ const ArraysAndStrings = () => {
                     timeComplexity={<Latex>$O(n^2)$</Latex>}
                     spaceComplexity={<Latex>$O(1)$</Latex>}
                 />
+                <ProblemDescription
+                    title='Set Matrix Zeroes'
+                    hints={[]}
+                    companies={[]}
+                    problems={[
+                        {
+                            title: 'Game of life',
+                            link: 'https://leetcode.com/problems/game-of-life/'
+                        },
+                        {
+                            title: 'Number of laser beams in a bank',
+                            link: 'https://leetcode.com/problems/number-of-laser-beams-in-a-bank/'
+                        },
+                        {
+                            title: 'Minimum operations to remove adjacent ones in matrix',
+                            link: 'https://leetcode.com/problems/minimum-operations-to-remove-adjacent-ones-in-matrix/'
+                        },
+                        {
+                            title: 'Remove all ones with row and column flips II',
+                            link: 'https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$$</Latex>}
+                    spaceComplexity={<Latex>$$</Latex>}
+                />
             </details>
         </section>
     )

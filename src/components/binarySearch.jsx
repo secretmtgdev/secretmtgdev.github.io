@@ -74,33 +74,76 @@ const BinarySearch = () => {
                 />
                 <ProblemDescription
                     title='Maximum number of removable characters'
-                    hints={[]}
+                    hints={[
+                        'How do you check if a string is a subsequence of another one?',
+                        'If you select characters up to the middle of removables and find the string p is a subsequence of s what does that indicate?'
+                    ]}
                     companies={['amazon', 'google', 'meta']}
                     problems={[{title: '', link: ''}]}
+                    timeComplexity={<Latex>$O(log(n))$</Latex>}
+                    spaceComplexity={<Latex>$O(1)$</Latex>}
                 />
                 <ProblemDescription
                     title='Koko eating bananas'
-                    hints={[]}
-                    companies={['google']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'Try brute forcing the problem',
+                        'We can optimize the time by a binary search on the possible k-range'
+                    ]}
+                    companies={['amazon', 'apple', 'google', 'meta']}
+                    problems={[
+                        {
+                            title: 'Minimize max distance to gas station',
+                            link: 'https://leetcode.com/problems/minimize-max-distance-to-gas-station/'
+                        },
+                        {
+                            title: 'Minimized maximum of products distributed to any store',
+                            link: 'https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(log(max(piles) * len(piles))$</Latex>}
+                    spaceComplexity={<Latex>$O(1)$</Latex>}
                 />
                 <ProblemDescription
                     title='First and last position of element in sorted array'
                     hints={[]}
-                    companies={['microsoft']}
-                    problems={[{title: '', link: ''}]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'linkedin', 'meta', 'microsoft', 'uber']}
+                    problems={[
+                        {
+                            title: 'First bad version',
+                            link: 'https://leetcode.com/problems/first-bad-version/'
+                        },
+                        {
+                            title: 'Plates between candles',
+                            link: 'https://leetcode.com/problems/plates-between-candles/'
+                        },
+                        {
+                            title: 'Find target indices after sorting array',
+                            link: 'https://leetcode.com/problems/find-target-indices-after-sorting-array/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(log(n))$</Latex>}
+                    spaceComplexity={<Latex>$O(1)$</Latex>}
                 />
                 <ProblemDescription
                     title='Median of two sorted arrays'
-                    hints={[]}
-                    companies={['meta']}
+                    hints={[
+                        'Merging the arrays together makes this problem trivial, we want to avoid this',
+                        'Count the total number of elements combined and take half, set a left partition on half of one of the arrays and the get total/2 - half[partition] elements from the second array',
+                        'To find the partition a binary search will help',
+                        'Once each array is partitioned into left and right subarrays, assert that the right most left partition of one array is less than or equal to the left most right partition value of the other array',
+                        'The median value will be the minimum of the leftmost value in the right partitions of both arrays if the length of the arrays together is odd',
+                        'The median value will (max(A[leftMax], B[rightMax] + min(A[rightMin], B[rightMind]) / 2'
+                    ]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'oracle', 'meta', 'microsoft']}
                     problems={[{title: '', link: ''}]}
+                    timeComplexity={<Latex>$O(log(min(n, m)))$</Latex>}
+                    spaceComplexity={<Latex>$O(1)$</Latex>}
                 />
                 <ProblemDescription
                     title='Search insert position'
                     hints={[]}
-                    companies={['google']}
-                    problems={[{title: '', link: ''}]}
+                    companies={['adobe', 'amazon', 'apple', 'google', 'microsoft']}
+                    problems={[{title: 'First bad version', link: 'https://leetcode.com/problems/first-bad-version/'}]}
                 />
                 <ProblemDescription
                     title='Search in rotated sorted array'

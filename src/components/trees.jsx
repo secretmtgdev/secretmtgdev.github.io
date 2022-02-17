@@ -86,15 +86,18 @@ const Trees = () => {
                 />
                 <ProblemDescription
                     title='Construct binary tree from inorder and preorder'
-                    hints={[]}
-                    companies={['amazon']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'First value in preorder traversal is the root',
+                        'Values found to the left of the root, from the preorder, in the inorder are the left subtree and the right elements are in the right subtree'
+                    ]}
+                    companies={['adobe', 'amazon', 'google', 'microsoft', 'uber']}
+                    problems={[{title: '106. Construct Binary Tree from Inorder and Postorder Traversal', link: 'https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/'}]}
                 />
                 <ProblemDescription
                     title='Implement prefix tree (trie)'
                     hints={[]}
                     companies={['microsoft']}
-                    problems={[{title: '', link: ''}]}
+                    problems={[{title: 'Construct binary tree from inorder and postorder traversal', link: 'https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/'}]}
                 />
                 <ProblemDescription
                     title='Same tree'

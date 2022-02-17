@@ -85,9 +85,25 @@ const DynamicProgramming = () => {
                 />
                 <ProblemDescription
                     title='Longest common subsequence'
-                    hints={[]}
-                    companies={['google']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'If two characters match we know that we have at least 1 longest common subsequence',
+                        'If the characters do not match then we have too look at the previous substring matches to check what the longest common subsequence is so far'
+                    ]}
+                    companies={['adobe', 'amazon', 'google', 'meta', 'microsoft', 'uber']}
+                    problems={[
+                        {
+                            title: 'Longest palindromic subsequence',
+                            link: 'https://leetcode.com/problems/longest-palindromic-subsequence/'
+                        },
+                        {
+                            title: 'Delete operation for two strings',
+                            link: 'https://leetcode.com/problems/delete-operation-for-two-strings/'
+                        },
+                        {
+                            title: 'Shortest common supersequence',
+                            link: 'https://leetcode.com/problems/shortest-common-supersequence/'
+                        }
+                    ]}
                 />
                 <ProblemDescription
                     title='Maximum product subarray'

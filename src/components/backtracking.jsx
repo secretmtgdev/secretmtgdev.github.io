@@ -21,9 +21,29 @@ const Backtracking = () => {
                 />
                 <ProblemDescription
                     title='Permutations II'
-                    hints={[]}
-                    companies={['meta', 'google']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'The issue with this problem is that duplicates have been added, drawing the decision tree we yield multiple of the same permutation',
+                        'What if keep track of the counts of the values that we have used?'
+                    ]}
+                    companies={['adobe', 'amazon', 'apple', 'linkedin', 'meta', 'google']}
+                    problems={[
+                        {
+                            title: 'Next permutation',
+                            link: 'https://leetcode.com/problems/next-permutation/'
+                        },
+                        {
+                            title: 'Permutations',
+                            link: 'https://leetcode.com/problems/permutations/'
+                        },
+                        {
+                            title: 'Palindrome permutation II',
+                            link: 'https://leetcode.com/problems/palindrome-permutation-ii/'
+                        },
+                        {
+                            title: 'Number of squareful arrays',
+                            link: 'https://leetcode.com/problems/number-of-squareful-arrays/'
+                        }
+                    ]}
                 />
                 <ProblemDescription
                     title='Subsets'
@@ -92,9 +112,38 @@ const Backtracking = () => {
                 />
                 <ProblemDescription
                     title='Combination sum'
-                    hints={[]}
-                    companies={['amazon']}
-                    problems={[{title: '', link: ''}]}
+                    hints={[
+                        'Draw out a decision tree and try to see if a pattern is apparent'
+                    ]}
+                    companies={['adobe', 'airbnb', 'amazon', 'apple', 'microsoft', 'meta', 'snapchat']}
+                    problems={[
+                        {
+                            title: 'Letter combinations of a phone number',
+                            link: 'https://leetcode.com/problems/letter-combinations-of-a-phone-number/'
+                        },
+                        {
+                            title: 'Combination sum II',
+                            link: 'https://leetcode.com/problems/combination-sum-ii/'
+                        },
+                        {
+                            title: 'Combinations',
+                            link: 'https://leetcode.com/problems/combinations/'
+                        },
+                        {
+                            title: 'Combination sum III',
+                            link: 'https://leetcode.com/problems/combination-sum-iii/'
+                        },
+                        {
+                            title: 'Factor combinations',
+                            link: 'https://leetcode.com/problems/factor-combinations/'
+                        },
+                        {
+                            title: 'Combination sum IV',
+                            link: 'https://leetcode.com/problems/combination-sum-iv/'
+                        }
+                    ]}
+                    timeComplexity={<Latex>$O(2^n)$</Latex>}
+                    spaceComplexity={<Latex>$O(2^n)$</Latex>}
                 />
                 <ProblemDescription
                     title='Word search II'
@@ -110,8 +159,13 @@ const Backtracking = () => {
                 />
                 <ProblemDescription
                     title='Combination sum II'
-                    hints={[]}
-                    companies={['amazon']}
+                    hints={[
+                        'Draw out a decision tree and try to see if a pattern is apparent',
+                        'With the decision tree we can find all combinations but there will be duplicate combinations',
+                        'What happens if the decision tree is tweaked s.t. if a value is excluded no other copies of it will ever be included in the combination?',
+                        'One can use a set to solve this problem, but what about sorting?'
+                    ]}
+                    companies={['adobe', 'airbnb', 'amazon', 'apple', 'microsoft', 'meta', 'snapchat']}
                     problems={[{title: '', link: ''}]}
                 />
                 <ProblemDescription
